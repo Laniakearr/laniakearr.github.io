@@ -49,7 +49,7 @@ education:
   - area: BMath Computer Science Major + Combinatorics & Optimization Joint
     institution: University of Waterloo
     date_start: 2020-09-01
-    date_end: Current
+    date_end: 2025-08-31
     summary: |
       GPA: 86/100
       
