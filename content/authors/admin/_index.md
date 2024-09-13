@@ -6,8 +6,8 @@ title: 吴思睿
 name_pronunciation: Sirui Wu
 
 # Full name (for SEO)
-first_name: Sirui
-last_name: Wu
+first_name: Wu
+last_name: Sirui
 
 # Status emoji
 status:
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Computer Science + Combinatorics and Optimization Student
+role: Candidate for Bachelor of Math | CS major | Joint Combinatorics & Optimization
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -46,7 +46,7 @@ interests:
   - Software Development
 
 education:
-  - area: BMath Computer Science Major + Combinatorics & Optimization Joint
+  - area: BMath Computer Science Major Joint Combinatorics & Optimization
     institution: University of Waterloo
     date_start: 2020-09-01
     date_end: 2025-08-31
@@ -54,11 +54,15 @@ education:
       GPA: 86/100
       
       Courses included:
-      - computer graphics
-      - linear algebra
-      - data structures and algorithms
-      - computational math
-      - optimization
+      - Computer Graphics (My favourite!!!)
+        url: https://student.cs.uwaterloo.ca/~cs488/Spring2024/index.html
+      - CS core courses: Object-Oriented Software Development / Data Structures / Algorithms /  Operating Systems
+      - Other CS courses: Machine Learning / Computational Math / User Interface
+      - Math core courses:Linear Algebra / Calculus / Real Analysis
+      - CO core courses: Combinatorics / Optimization / Graph Theory / Network Flow Theory / Groups and Rings
+      - Statistics: Probability / Matematical Statistics
+      - Physics: Mechanics / Waves, Electricity and Magnetism
+      - Others: Music Theory / Spanish
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -88,18 +92,14 @@ work:
 skills:
   - name: Technical Skills
     items:
+      - name: C++
+        description: ''
+        percent: 80
+        icon: code-bracket
       - name: Python
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
