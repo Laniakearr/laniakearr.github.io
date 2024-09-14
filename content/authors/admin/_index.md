@@ -3,11 +3,11 @@
 title: 吴思睿
 
 # Name pronunciation (optional)
-name_pronunciation: Sirui Wu
+name_pronunciation: Wu Sirui
 
 # Full name (for SEO)
-first_name: Wu
-last_name: Sirui
+first_name: Sirui
+last_name: Wu
 
 # Status emoji
 status:
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Candidate for Bachelor of Math | CS major | Joint Combinatorics & Optimization
+role: 4th-year CS student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -54,15 +54,14 @@ education:
       GPA: 86/100
       
       Courses included:
-      - Computer Graphics (My favourite!!!)
-        url: https://student.cs.uwaterloo.ca/~cs488/Spring2024/index.html
-      - CS core courses: Object-Oriented Software Development / Data Structures / Algorithms /  Operating Systems
-      - Other CS courses: Machine Learning / Computational Math / User Interface
-      - Math core courses:Linear Algebra / Calculus / Real Analysis
-      - CO core courses: Combinatorics / Optimization / Graph Theory / Network Flow Theory / Groups and Rings
-      - Statistics: Probability / Matematical Statistics
-      - Physics: Mechanics / Waves, Electricity and Magnetism
-      - Others: Music Theory / Spanish
+      - Computer Graphics (My favourite!!! 😆)
+      - CS core courses: Object-Oriented Software Development | Data Structures | Algorithms |  Operating Systems
+      - Other CS courses: Machine Learning | Computational Math | User Interface
+      - Math core courses: Linear Algebra | Calculus | Real Analysis
+      - CO core courses: Combinatorics | Optimization | Graph Theory | Network Flow Theory | Groups and Rings
+      - Statistics: Probability | Matematical Statistics
+      - Physics: Mechanics | Waves, Electricity and Magnetism
+      - Others: Music Theory | Spanish
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
