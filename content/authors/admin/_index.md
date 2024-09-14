@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 4th-year CS student
+role: Candidate for Bachelor of Math | CS major
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
