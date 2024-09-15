@@ -152,16 +152,16 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: President's International Experience Award
-    date: '2025'
+    date: '2025-01-01'
     awarder: University of Waterloo
   - title: Math Undergraduate Research Award
-    date: '2024'
+    date: '2024-01-01'
     awarder: University of Waterloo
   - title: President's Research Award
-    date: '2024'
+    date: '2024-01-01'
     awarder: University of Waterloo
   - title: University of Waterloo President's Scholarship of Distinction
-    date: '2021'
+    date: '2021-01-01'
     awarder: University of Waterloo
 ---
 
