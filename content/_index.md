@@ -36,7 +36,7 @@ sections:
       title: '📚 My Research/Work Interest'
       subtitle: ''
       text: |-
-        I have worked as a research assistant in the Computer Motion Group, led by [Prof. Christopher Batty](https://cs.uwaterloo.ca/~c2batty/). Our focus was on the re-meshing process in surface tracking, where we explored promising techniques that preserve shapes more effectively than traditional methods. This experience has deepened my interest in graphics and geometry.
+        I have worked as a research assistant in the Computer Motion Group, led by Prof. Christopher Batty. Our focus was on the re-meshing process in surface tracking, where we explored promising techniques that preserve shapes more effectively than traditional methods. This experience has deepened my interest in graphics and geometry.
 
         After attending SGI and completing several exiting projects, I have also developed an interest in the applications of computer graphics, computer vision, and geometry processing, particularly in how they integrate with trending technologies such as VR/AR.
 
