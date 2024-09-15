@@ -154,19 +154,19 @@ awards:
   - title: President's International Experience Award
     date: '2025'
     awarder: University of Waterloo
-    icon: academic-cap
+    icon: hero/academic-cap
   - title: Math Undergraduate Research Award
     date: '2024'
     awarder: University of Waterloo
-    icon: academic-cap
+    icon: hero/academic-cap
   - title: President's Research Award
     date: '2024'
     awarder: University of Waterloo
-    icon: academic-cap
+    icon: hero/academic-cap
   - title: University of Waterloo President's Scholarship of Distinction
     date: '2021'
     awarder: University of Waterloo
-    icon: academic-cap
+    icon: hero/academic-cap
 ---
 
 ## About Me
