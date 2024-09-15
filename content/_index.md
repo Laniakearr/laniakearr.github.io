@@ -40,7 +40,7 @@ sections:
 
         After attending SGI and completing several exiting projects, I have also developed an interest in the applications of computer graphics, computer vision, and geometry processing, particularly in how they integrate with trending technologies such as VR/AR.
 
-Please feel free to reach out if there are any co-op or research opportunities! 😃
+        Please feel free to reach out if there are any co-op or research opportunities! 😃
     design:
       columns: '1'
   - block: collection
