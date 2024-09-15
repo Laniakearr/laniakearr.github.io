@@ -70,7 +70,7 @@ work:
     date_start: 2024-07-01
     date_end: 2024-08-16
   - position: Undergraduate Research Assistant
-    company_name: Computation Motion Group
+    company_name: [Computation Motion Group]{https://cs.uwaterloo.ca/~c2batty/}
     company_url: 'https://cs.uwaterloo.ca/~c2batty/'
     company_logo: ''
     date_start: 2023-09-01
