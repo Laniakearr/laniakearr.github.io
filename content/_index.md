@@ -33,14 +33,14 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 My Research/Work Interest'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I have worked as a research assistant in the Computer Motion Group, led by [Prof. Christopher Batty](https://cs.uwaterloo.ca/~c2batty/). Our focus was on the re-meshing process in surface tracking, where we explored promising techniques that preserve shapes more effectively than traditional methods. This experience has deepened my interest in graphics and geometry.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        After attending SGI and completing several exiting projects, I have also developed an interest in the applications of computer graphics, computer vision, and geometry processing, particularly in how they integrate with trending technologies such as VR/AR.
+
+Please feel free to reach out if there are any co-op or research opportunities! 😃
     design:
       columns: '1'
   - block: collection
