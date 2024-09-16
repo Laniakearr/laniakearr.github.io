@@ -125,10 +125,10 @@ skills:
         description: ''
         percent: 100
         icon: person-simple-walk
-      - name: Travel
+      - name: Electric Guitar
         description: ''
         percent: 100
-        icon: hero/globe-asia-australia
+        icon: hero/musical-note
       - name: Painting
         description: ''
         percent: 100
