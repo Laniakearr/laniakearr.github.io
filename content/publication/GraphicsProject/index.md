@@ -11,7 +11,7 @@ doi: ""
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ""
 
 # Publication name and optional abbreviated publication name.
 publication: ""
@@ -20,9 +20,7 @@ publication_short: ""
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "This project is about creating an animation scene of Gandolf vs. Balrog in 3D yet cel-shading style, with
-technical goal of finding and implementing some rendering and simulating methods that help
-create models in a 2D cartoon way. It is written based on the code skeleton provided from class [CS488](https://student.cs.uwaterloo.ca/~cs488/Spring2024/)."
+summary: "This project is about developing a graphics engine by using C++. It aims to create an animation scene of Gandolf vs. Balrog in 3D yet cel-shading style, with technical goal of finding and implementing some rendering and simulating methods that help create models in a 2D cartoon way. It is written based on the code skeleton provided from class CS488."
 
 tags:
 - Projects
@@ -63,64 +61,44 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-## Implementation:
+## Introduction
+This project is about developing a graphics engine by using C++. It aims to create an animation scene of Gandolf vs. Balrog in 3D yet cel-shading style, with technical goal of finding and implementing some rendering and simulating methods that help create models in a 2D cartoon way. It is written based on the code skeleton provided from class [CS488](https://student.cs.uwaterloo.ca/~cs488/Spring2024/).
 
-### Modeling
-I used Blender to model two characters and their weapons, and also created the texture maps for both.
-![Gandalf](Gandalf.png "Gandalf's model and texture")
-![Balrog](Balrog.png "Balrog's model and texture")
+## Implementation
 
+### 1. Modeling
+Blender was used to model two characters and their weapons, and texture maps were created for both.
+![Gandalf](Gandalf.png "Gandalf's model and texture") ![Balrog](Balrog.png "Balrog's model and texture")
 
-### Cel Shading
-I implemented edge detection to emphasis the 2D effect, 
-the sensitiveness is customized in code.I also used SED to quantize the value of light. Feel
-free to play around with ''lightingLevels'' and "edgeThreshold" to see variations.
+### 2. Cel Shading
+Edge detection was implemented to enhance the 2D effect. There are also sensitivity parameters customized in the code. Furthermore, SED was applied to quantize the light values.
 
-3. Bump mapping: To increase the richness of texture, I used bump mapping to add small
-wrinkles to Balrog's skin and the texture of bridge. As mentioned in the slide and
-the paper, we need to modify the normal of the points inside the related triangle meshes. To
-do so, implemented tangent calculation method for each triangle,and also 
-do calculation the height based on the color provided in the texture file, and store them in the height
-map. Then, I use the old normal and tangent values to calculate the perturbed normal. Finally,
-during the rendering step, we use perturbed normal.
+### 3. Bump mapping
+To enhance texture richness, bump mapping was employed to add fine wrinkles to Balrog's skin and the surface of the bridge. As noted in the slide and paper, it is necessary to modify the normals of the points within the relevant triangle meshes. 
 
-4. Fire simulation dynamic: The method I chose to implement is the combination of particle
-system and randomness generation. More specifically, I adopt the particle system in the
-existing code. In addition to Gravity, I also added a Buoyancy force, which is the force that
-drives the fire particles upwards. Note it changes with the temperature, so we would store the
-temperature as well. As the color and lifespan can be determined by temperature, I choose not to
-save them. Then, I would add either the Simplex noise function to
-add randomness to particles' motion. In addition, the color/transparency would be determined
-by a discrete function, to achieve the cartoon style. Note the fire faded away and we need to clear
-that, I use deque structure to increase efficiency.
+To achieve this, a tangent calculation method was implemented for each triangle, and the height values would be computed based on the color data from the texture file, which are stored in the height map. The perturbed normals are calculated using the original normal and tangent values. During the rendering step, these perturbed normals would then be utilized.
 
-5. Fire rendering: Unlike conventional objects, fire emits light. To achieve this, I will use additive
-blending for fire particles, allowing the light emitted by each particle to accumulate, simulating
-the bright and intense nature of fire. The particles will be rendered with a gradient color based
-on their age and temperature, transitioning from bright yellow at the base to red, orange, and
-finally to gray as they cool down. Additionally, I will implement a glow effect to enhance the
-appearance of the fire, making it appear more intense and fiery. More specifically, I do so in
-surronding sphere, add brightness to them, and also use the Gaussian blur equation to highlight
-the surrounding area as well.
+### 4. Fire simulation dynamic
+The method implemented combines a particle system with randomness generation. In addition to gravity, a buoyancy force was introduced, which drives the fire particles upwards. This force varies with temperature, so temperature values were stored accordingly. Since both color and lifespan can be determined by temperature, they were not stored separately. 
 
-6. Smoke rendering: Smoke rendering is handled using a slightly different particle system,
-as smoke particles will be generated with longer lifespans and will grow in size as they rise. I
-used alpha blending to render smoke particles, ensuring smooth transitions and realistic fading.
-To enhance realism, I implemented volumetric rendering techniques to handle light scattering
-and absorption within the smoke. I wanted to use ray marching here to determine the interaction
-of light and volume, but it is not worthy, I just raytrace each smoke particle and recorded
-transparency value. Note that the shadow is well-handled in my code, so that it also shows
-the transparency of the smoke.
+Simplex noise was applied to introduce randomness into the particles' motion. Furthermore, the color and transparency were controlled by a discrete function to achieve a cartoon style. As the fire dissipates, it must be cleared efficiently; for this purpose, a deque structure was utilized.
 
-7. Elastic object dynamics: I implemented a mass-spring system or a finite element method to simulate the forces
-and reactions within elastic objects. This will allow the whip to stretch, compress, and bend in
-response to applied forces. The algorithm update the positions and states of the mass points
-or mesh vertices in real time, ensuring accurate and natural-looking deformations.
+### 5. Fire rendering
+Unlike conventional objects, fire emits light. To simulate this, additive blending is applied to the fire particles, allowing the light emitted by each particle to accumulate, thereby replicating the bright and intense nature of fire. 
 
-8. Shadow mapping: To improve the current shadow mapping method, I used the shadow
-mapping method. This involves creating depth maps from the perspective of the light sources
-and using these maps during rendering to determine shadowed areas. I also used techniques like
-percentage-closer filtering (PCF) to soften shadows and reduce artifacts, ensuring that the shadows
-appear smooth and natural. Note it takes time to render the shadow map at the beginning,
-but after this, it is faster than ray-tracing shadow.
+The particles are rendered with a gradient color based on their age and temperature, transitioning from bright yellow at the base to red, orange, and eventually gray as they cool. 
 
+A glow effect is also implemented to enhance the fire's appearance, increasing its intensity. This is achieved by adding brightness to the surrounding sphere and using the Gaussian blur equation to highlight the surrounding area.
+
+### 6. Smoke rendering
+Smoke rendering is managed using a slightly different particle system, with smoke particles generated to have longer lifespans and grow in size as they rise. Alpha blending is applied to ensure smooth transitions and realistic fading. To further enhance realism, volumetric rendering techniques are employed to simulate light scattering and absorption within the smoke. 
+
+Although ray marching was considered for determining the interaction between light and the smoke volume, it was deemed unnecessary; instead, each smoke particle is raytraced, and transparency values are recorded. Shadow handling is effectively implemented in the code, accurately reflecting the transparency of the smoke.
+
+### 7. Elastic object dynamics
+A mass-spring system or finite element method was implemented to simulate the forces and reactions within elastic objects. This approach enables the whip to stretch, compress, and bend in response to applied forces. The algorithm updates the positions and states of the mass points or mesh vertices in real time, ensuring accurate and natural-looking deformations.
+
+### 8.Shadow mapping
+To enhance the existing shadow mapping technique, the shadow mapping method was employed, which involves generating depth maps from the perspective of the light sources and utilizing these maps during rendering to identify shadowed areas.
+
+Techniques such as percentage-closer filtering (PCF) were applied to soften shadows and minimize artifacts, resulting in smoother and more natural shadow appearances. While the initial rendering of the shadow map requires time, the process is faster than ray-tracing shadows in subsequent frames.
