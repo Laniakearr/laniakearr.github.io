@@ -20,9 +20,9 @@ publication_short: ""
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: This project is about creating an animation scene of Gandolf vs. Balrog in 3D yet cel-shading style, with
+summary: "This project is about creating an animation scene of Gandolf vs. Balrog in 3D yet cel-shading style, with
 technical goal of finding and implementing some rendering and simulating methods that help
-create models in a 2D cartoon way. It is written based on the code skeleton provided from class [CS488](https://student.cs.uwaterloo.ca/~cs488/Spring2024/).
+create models in a 2D cartoon way. It is written based on the code skeleton provided from class [CS488](https://student.cs.uwaterloo.ca/~cs488/Spring2024/)."
 
 tags:
 - Projects
