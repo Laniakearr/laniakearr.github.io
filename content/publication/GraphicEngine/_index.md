@@ -1,5 +1,5 @@
 ---
-title: "C++ Graphics Engine"
+title: "C++ Graphics Engine2"
 authors:
 - admin
 date: "2024-08-06T00:00:00Z"
