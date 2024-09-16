@@ -54,15 +54,4 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    id: papers
-    content:
-      title: Featured Projects2
-      filters:
-        folders:
-          - project
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
 ---
