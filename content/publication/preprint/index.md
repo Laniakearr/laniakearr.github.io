@@ -64,10 +64,15 @@ projects:
 slides: example
 ---
 ## Implementation:
-1. Modeling: I used Blender to create the models of two characters and their weapons,
-as well as the texture map for those.
 
-2. Cel Shading Implementation: I implemented edge detection to emphasis the 2D effect, 
+### Modeling
+I used Blender to model two characters and their weapons, and also created the texture maps for both.
+![Gandalf](Gandalf.png "Gandalf's model and texture")
+![Balrog](Balrog.png "Balrog's model and texture")
+
+
+### Cel Shading
+I implemented edge detection to emphasis the 2D effect, 
 the sensitiveness is customized in code.I also used SED to quantize the value of light. Feel
 free to play around with ''lightingLevels'' and "edgeThreshold" to see variations.
 
