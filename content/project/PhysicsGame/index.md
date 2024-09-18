@@ -6,5 +6,5 @@ tags:
   - C++
   - Game
 ---
-This is a teaching-oriented Physics game developed with team members during a hackathon by using QT and C++.
+A teaching-oriented Physics game developed with team members during a hackathon by using QT and C++.
 <!--more-->
