@@ -1,6 +1,6 @@
 ---
 title: SketchUp Mesh Plugin
-date: 2024-08-01
+date: 2024-08-12
 external_link: https://github.com/christine-li-trimble/mesh-simplification
 tags:
   - C++
