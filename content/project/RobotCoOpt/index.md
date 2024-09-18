@@ -1,6 +1,6 @@
 ---
 title: Robot Geometry Optimization
-date: 2024-08-01
+date: 2024-07-15
 external_link: https://github.com/Laniakearr/RoboCoOpt
 tags:
   - Python
