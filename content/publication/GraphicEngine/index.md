@@ -80,8 +80,16 @@ Edge detection was implemented to enhance the 2D effect. There are also sensitiv
 To enhance texture richness, bump mapping was employed to add fine wrinkles to Balrog's skin and the surface of the bridge. As noted in the slide and paper, it is necessary to modify the normals of the points within the relevant triangle meshes. 
 
 To achieve this, a tangent calculation method was implemented for each triangle, and the height values would be computed based on the color data from the texture file, which are stored in the height map. The perturbed normals are calculated using the original normal and tangent values. During the rendering step, these perturbed normals would then be utilized.
-![](bump_before.png "before bump mapping")
-![](bump_after.png "after bump mapping")
+<div style="display: flex; justify-content: space-around;">
+  <div>
+    <img src="bump_before.png" alt="before bump mapping" title="before bump mapping" style="width: 45%;">
+    <p align="center">Before Bump Mapping</p>
+  </div>
+  <div>
+    <img src="bump_after.png" alt="after bump mapping" title="after bump mapping" style="width: 45%;">
+    <p align="center">After Bump Mapping</p>
+  </div>
+</div>
 
 ### 4. Fire simulation dynamic
 The method implemented combines a particle system with randomness generation. In addition to gravity, a buoyancy force was introduced, which drives the fire particles upwards. This force varies with temperature, so temperature values were stored accordingly. Since both color and lifespan can be determined by temperature, they were not stored separately. 
