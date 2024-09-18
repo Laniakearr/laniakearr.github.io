@@ -60,15 +60,15 @@ sections:
       title: '💬 Testimonials'
       subtitle: ''
       text: |
-        > "Tina has very curious mind. This curiosity, along with her attention to detail, led her to identify areas of improvements in some elements of her tasks that were not outlined in the task description, and were very relevant."
+        > Tina has very curious mind. This curiosity, along with her attention to detail, led her to identify areas of improvements in some elements of her tasks that were not outlined in the task description, and were very relevant.
         ---
-        > "I feel that Tina is always looking for opportunities to learn and build up skills, which is an ideal attitude for both personal and professional development."
+        > I feel that Tina is always looking for opportunities to learn and build up skills, which is an ideal attitude for both personal and professional development.
         ---
-        >  "I felt my feedback was always welcome, and taken into account for the current and following tasks. Our exchanges were always pleasant and overall I liked working with her a lot."
+        >  I felt my feedback was always welcome, and taken into account for the current and following tasks. Our exchanges were always pleasant and overall I liked working with her a lot.
         ---
-        > "Tina was excellent to work with. She demonstrated enthusiasm, dedication, and strong technical skills, all of which will be critical skills for her success in future graduate studies and beyond. I believe she has the capacity to grow into a highly talented researcher."
+        > Tina was excellent to work with. She demonstrated enthusiasm, dedication, and strong technical skills, all of which will be critical skills for her success in future graduate studies and beyond. I believe she has the capacity to grow into a highly talented researcher.
         ---
-        > "Tina is active in participating the discussion and development. She showed creativity in exploring different ways to implement an algorithm to make it perform better in our application."
+        > Tina is active in participating the discussion and development. She showed creativity in exploring different ways to implement an algorithm to make it perform better in our application.
         ---
     design:
       columns: '1'
