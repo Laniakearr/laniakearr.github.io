@@ -119,7 +119,7 @@ A mass-spring system or finite element method was implemented to simulate the fo
 To enhance the existing shadow mapping technique, the shadow mapping method was employed, which involves generating depth maps from the perspective of the light sources and utilizing these maps during rendering to identify shadowed areas.
 
 Techniques such as percentage-closer filtering (PCF) were applied to soften shadows and minimize artifacts, resulting in smoother and more natural shadow appearances. While the initial rendering of the shadow map requires time, the process is faster than ray-tracing shadows in subsequent frames.
-![](shadowMapping.gif "shadow mapping")
+![](shadowMapping.png "shadow mapping")
 
 ## Final result
 ![](screenshot.png "final screenshot")
