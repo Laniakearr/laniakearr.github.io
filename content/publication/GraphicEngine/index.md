@@ -82,11 +82,11 @@ To enhance texture richness, bump mapping was employed to add fine wrinkles to B
 To achieve this, a tangent calculation method was implemented for each triangle, and the height values would be computed based on the color data from the texture file, which are stored in the height map. The perturbed normals are calculated using the original normal and tangent values. During the rendering step, these perturbed normals would then be utilized.
 <div style="display: flex; justify-content: space-around;">
   <div>
-    <img src="bump_before.png" alt="before bump mapping" title="before bump mapping" style="width: 45%;">
+    <img src="bump_before.png" alt="before bump mapping" title="before bump mapping" style="width: 80%;">
     <p align="center">Before Bump Mapping</p>
   </div>
   <div>
-    <img src="bump_after.png" alt="after bump mapping" title="after bump mapping" style="width: 45%;">
+    <img src="bump_after.png" alt="after bump mapping" title="after bump mapping" style="width: 80%;">
     <p align="center">After Bump Mapping</p>
   </div>
 </div>
