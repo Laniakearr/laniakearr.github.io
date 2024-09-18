@@ -70,11 +70,11 @@ This project is about developing a graphics engine by using C++. It aims to crea
 Blender was used to model two characters and their weapons, and texture maps were created for both.
 <div style="display: flex; justify-content: space-around;">
   <div>
-    <img src="Gandalf.png" alt="Gandalf" title="Gandalf" style="width: 100%;">
+    <img src="Gandalf.png" alt="Gandalf" title="Gandalf" style="width: 90%;">
     <p align="center">Gandalf</p>
   </div>
   <div>
-    <img src="Balrog.png" alt="Balrog" title="Balrog" style="width: 100%;">
+    <img src="Balrog.png" alt="Balrog" title="Balrog" style="width: 90%;">
     <p align="center">Balrog</p>
   </div>
 </div>
@@ -83,15 +83,15 @@ Blender was used to model two characters and their weapons, and texture maps wer
 Edge detection was implemented to enhance the 2D effect. There are also sensitivity parameters customized in the code. Furthermore, SED was applied to quantize the light values.
 <div style="display: flex; justify-content: space-around;">
   <div>
-    <img src="celShading0.png" alt="no cel shading" title="no cel shading" style="width: 100%;">
+    <img src="celShading0.png" alt="no cel shading" title="no cel shading" style="width: 80%;">
     <p align="center">No Cel Shading</p>
   </div>
   <div>
-    <img src="celShading2.png" alt="cel shading type 1" title="cel shading type 1" style="width: 100%;">
+    <img src="celShading2.png" alt="cel shading type 1" title="cel shading type 1" style="width: 80%;">
     <p align="center">Cel Shading Type 1</p>
   </div>
   <div>
-    <img src="celShading1.png" alt="cel shading type 2" title="cel shading type 2" style="width: 100%;">
+    <img src="celShading1.png" alt="cel shading type 2" title="cel shading type 2" style="width: 80%;">
     <p align="center">Cel Shading Type 2</p>
   </div>
 </div>
@@ -102,11 +102,11 @@ To enhance texture richness, bump mapping was employed to add fine wrinkles to B
 To achieve this, a tangent calculation method was implemented for each triangle, and the height values would be computed based on the color data from the texture file, which are stored in the height map. The perturbed normals are calculated using the original normal and tangent values. During the rendering step, these perturbed normals would then be utilized.
 <div style="display: flex; justify-content: space-around;">
   <div>
-    <img src="bump_before.png" alt="Before" title="Before" style="width: 100%;">
+    <img src="bump_before.png" alt="Before" title="Before" style="width: 90%;">
     <p align="center">Before</p>
   </div>
   <div>
-    <img src="bump_after.png" alt="After" title="After" style="width: 100%;">
+    <img src="bump_after.png" alt="After" title="After" style="width: 90%;">
     <p align="center">After</p>
   </div>
 </div>
