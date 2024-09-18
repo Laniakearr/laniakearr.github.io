@@ -54,4 +54,19 @@ sections:
     design:
       view: article-grid
       columns: 2
+
+  - block: markdown
+    content:
+      title: 'Comments from previous supervisors'
+      subtitle: ''
+      text: |-
+        "Tina has very curious mind."
+        "I feel that Tina is always looking for opportunities to learn and build up skills, which is an ideal attitude for both personal and professional development."
+        "	Tina has demonstrated throughout the work term a high level of curiosity and a desire to understand elements even when these are beyond the tasks given. This curiosity, along with her attention to detail, led her to identify areas of improvements in some elements of her tasks that were not outlined in the task description, and were very relevant. I felt my feedback was always welcome, and taken into account for the current and following tasks. Our exchanges were always pleasant and overall I liked working with her a lot."
+        "	Tina was an excellent research student. She works well independently, exhibits excellent critical thinking abilities, and has all the technical skills needed for the role. She will make a strong graduate student in the future!"
+        "Tina was excellent to work with. She demonstrated enthusiasm, dedication, and strong technical skills, all of which will be critical skills for her success in future graduate studies and beyond. I believe she has the capacity to grow into a highly talented researcher."
+        "Tina is active in participating the discussion and development. She showed creativity in exploring different ways to implement an algorithm to make it perform better in our application."
+        "Tina was the key member in the team. Of the three students, Tina was the most knowledgeable about software development and the mathematics behind it."
+    design:
+      columns: '1'
 ---
